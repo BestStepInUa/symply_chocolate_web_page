@@ -1,3 +1,6 @@
+.prettierrc.json
+.vscode
+.getignore
 # Logs
 logs
 *.log

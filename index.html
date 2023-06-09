@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta
+      name="description"
+      content="Treat yourself or a loved one to our finest ingredients for a moment of pure delight!"
+    />
     <title>Simply Chocolate</title>
+    <link type="image/svg" href="./images/favicon/favicon.svg" rel="shortcut icon" />
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!-- This is a page header -->
@@ -12,62 +19,59 @@
       <nav>
         <a href="/index.html"
           >Simply Chocolate
-          <img src="/images/icons/logo-icon.svg" alt="Simply Chocolate logo" width="24px" height="24px" />
+          <img src="/images/header/logo-icon.svg" alt="Simply Chocolate logo" width="24px" height="24px" />
         </a>
         <ul>
           <li>
             <a href="/index.html">Home</a>
           </li>
           <li>
-            <a href="#how-made">How it’s made?</a>
+            <a href="#how-made">How it's made?</a>
           </li>
           <li>
             <a href="#reviews">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="http://instagram.com" target="_blank"
-              ><img src="/images/icons/instagram.svg" alt="Simply Chocolate Instagram page" width="24px" height="24px"
-            /></a>
-          </li>
-          <li>
-            <a href="https://twitter.com" target="_blank"
-              ><img src="./images/icons/twitter.svg" alt="Simply Chocolate Twitter page" width="24px" height="24px"
-            /></a>
-          </li>
-        </ul>
-      </address>
+
+      <ul>
+        <li>
+          <a href="http://instagram.com" rel="noopener noreferrer">
+            <img src="/images/header/instagram.svg" alt="Simply Chocolate Instagram page" width="24px" height="24px"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <img src="./images/header/twitter.svg" alt="Simply Chocolate Twitter page" width="24px" height="24px"
+          /></a>
+        </li>
+      </ul>
     </header>
-    <!-- This is a main content -->
+    <!-- This is a main page content -->
     <main>
       <!-- Hero section -->
-      <section
-        style="background-image: url('./images/hero/hero-bg-img.jpg'); width: 1136px; height: 600px; color: #ffffff">
+      <section class="hero-section">
         <h1>Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h1>
         <!-- Buttons -->
-        <ul>
-          <li><button type="button">Buy now</button></li>
-          <li><button type="button">How it’s made</button></li>
-        </ul>
-        <!-- Scroll -->
+        <button type="button">Buy now</button>
+        <a href="#how-made">How it's made</a>
+        <button type="button">How it's made</button>
+        <!-- Scroll down -->
         <button type="button">
           scroll down
           <img src="/images/hero/sroll-down-btn.svg" alt="scroll down" />
         </button>
-        <!-- В подальшому ця кнопка буде мати так реалізацію -->
+        <!-- В подальшому ця кнопка буде мати таку реалізацію -->
         <!-- <button onclick="downFunction()" id="sroll-down-btn" title="scroll down">scroll down</button> -->
       </section>
       <!-- Benefit section -->
-      <section style="background-color: #1e1823; color: #ffffff">
-        <h2 hidden>Benefits</h2>
+      <section class="benefits-section">
+        <h2 hidden="">Benefits</h2>
         <ul>
           <li>
             <img src="/images/benefits/taste.svg" alt="Unsurpassed taste" width="32px" height="32px" />
             <h3>Unsurpassed taste</h3>
-            <p style="color: rgba(255, 255, 255, 0.7)">
+            <p class="benefits-text">
               Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent
               experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and
               discover a new level of chocolate bliss.
@@ -76,7 +80,7 @@
           <li>
             <img src="/images/benefits/price.svg" alt="Affordable price" width="32px" height="32px" />
             <h3>Affordable price</h3>
-            <p style="color: rgba(255, 255, 255, 0.7)">
+            <p class="benefits-text">
               Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of
               affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or
               quality. Browse our selection and indulge in affordable luxury today.
@@ -85,7 +89,7 @@
           <li>
             <img src="/images/benefits/production.svg" alt="Own production" width="32px" height="32px" />
             <h3>Own production</h3>
-            <p style="color: rgba(255, 255, 255, 0.7)">
+            <p class="benefits-text">
               We take pride in our own production process, ensuring that every step is carefully crafted to perfection.
               From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in
               every bite.
@@ -95,33 +99,55 @@
       </section>
       <!-- Ingredients section -->
       <section>
-        <h2>It all adds up to one exceptional taste sensation</h2>
+        <h2>It all adds up to one exceptional <span>taste</span> sensation</h2>
         <p>
           We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From
           selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.
         </p>
         <ul>
-          <li style="background-color: #fd9222">
+          <li class="ingredients-list-item-milk-chocolate">
             <img src="./images/ingredients/milk-chocolate.png" alt="Milk chocolate" width="206px" height="160px" />
             <h3>Milk chocolate</h3>
           </li>
-          <li style="background-color: #ffffff">
+          <li class="ingredients-list-item-milk">
             <img src="./images/ingredients/milk.png" alt="Milk" width="206px" height="160px" />
             <h3>Milk</h3>
           </li>
-          <li style="background-color: #1e1823">
+          <li class="ingredients-list-item-nuts">
             <img src="./images/ingredients/nuts.png" alt="Nuts" width="206px" height="160px" />
             <h3>Nuts</h3>
           </li>
-          <li style="background-color: #ffffff">
-            <img src="./images/ingredients/semi-sweet-chocolate.png" alt="Semi-sweet chocolate" width="206px" height="160px" />
+          <li class="ingredients-list-item-semi-sweet-chocolate">
+            <img
+              src="./images/ingredients/semi-sweet-chocolate.png"
+              alt="Semi-sweet chocolate"
+              width="206px"
+              height="160px"
+            />
             <h3>Semi-sweet chocolate</h3>
-          </li>  
+          </li>
+        </ul>
       </section>
       <!-- How it's made? section -->
-      <section></section>
+      <section id="how-made">
+        <h2>How it's <span>made?</span></h2>
+        <img src="./images/how-it's-made/how-it's-made.png" alt="How it's made?" width="600px" height="400px" />
+        <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
+        <ul>
+          <li>Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</li>
+          <li>At the same time, prepare a water bath. Melt the butter on it.</li>
+          <li>
+            "Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass
+            becomes uniform and silky.
+          </li>
+          <li>Heat the mixture over low heat, letting it barely boil.</li>
+          <li>
+            Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.
+          </li>
+        </ul>
+      </section>
       <!-- Reviews section -->
-      <section></section>
+      <section id="reviews"></section>
     </main>
     <!-- This is a page footer -->
     <footer></footer>
