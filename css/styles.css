@@ -1,7 +1,7 @@
 .hero-section {
   width: 1136px;
   height: 600px;
-  background-image: url('/images/hero/hero-bg-img.jpg');
+  background-image: url('/images/hero/bg.jpg');
   background-size: 1136px 600px;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -20,11 +20,17 @@
   background-color: #fd9222;
 }
 
+.ingredients-list-item-nuts {
+  background-color: #1e1823;
+}
+
 .ingredients-list-item-milk,
 .ingredients-list-item-semi-sweet-chocolate {
   background-color: #ffffff;
+  color: #111111;
 }
 
+.ingredients-list-item-milk-chocolate,
 .ingredients-list-item-nuts {
-  background-color: #1e1823;
+  color: #ffffff;
 }

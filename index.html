@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=7" />
     <meta
       name="description"
       content="Treat yourself or a loved one to our finest ingredients for a moment of pure delight!"
@@ -15,11 +14,11 @@
   </head>
   <body>
     <!-- This is a page header -->
-    <header>
+    <header id="home">
       <nav>
         <a href="/index.html"
           >Simply Chocolate
-          <img src="/images/header/logo-icon.svg" alt="Simply Chocolate logo" width="24px" height="24px" />
+          <img src="/images/header/logo-icon.svg" alt="Simply Chocolate logo" width="24" height="24" />
         </a>
         <ul>
           <li>
@@ -37,13 +36,13 @@
       <ul>
         <li>
           <a href="http://instagram.com" rel="noopener noreferrer">
-            <img src="/images/header/instagram.svg" alt="Simply Chocolate Instagram page" width="24px" height="24px"
+            <img src="/images/header/instagram.svg" alt="Simply Chocolate Instagram page" width="24" height="24"
           /></a>
         </li>
         <li>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="./images/header/twitter.svg" alt="Simply Chocolate Twitter page" width="24px" height="24px"
-          /></a>
+            <img src="./images/header/twitter.svg" alt="Simply Chocolate Twitter page" width="24" height="24" />
+          </a>
         </li>
       </ul>
     </header>
@@ -55,21 +54,17 @@
         <!-- Buttons -->
         <button type="button">Buy now</button>
         <a href="#how-made">How it's made</a>
-        <button type="button">How it's made</button>
         <!-- Scroll down -->
-        <button type="button">
-          scroll down
-          <img src="/images/hero/sroll-down-btn.svg" alt="scroll down" />
-        </button>
+        <button type="button">scroll down</button>
         <!-- В подальшому ця кнопка буде мати таку реалізацію -->
         <!-- <button onclick="downFunction()" id="sroll-down-btn" title="scroll down">scroll down</button> -->
       </section>
       <!-- Benefit section -->
       <section class="benefits-section">
-        <h2 hidden="">Benefits</h2>
+        <h2 hidden="">Benefits of Simply Chocolate</h2>
         <ul>
           <li>
-            <img src="/images/benefits/taste.svg" alt="Unsurpassed taste" width="32px" height="32px" />
+            <img src="./images/benefits/icon-1.svg" alt="Unsurpassed taste" width="32" height="32" />
             <h3>Unsurpassed taste</h3>
             <p class="benefits-text">
               Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent
@@ -78,7 +73,7 @@
             </p>
           </li>
           <li>
-            <img src="/images/benefits/price.svg" alt="Affordable price" width="32px" height="32px" />
+            <img src="./images/benefits/icon-2.svg" alt="Affordable price" width="32" height="32" />
             <h3>Affordable price</h3>
             <p class="benefits-text">
               Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of
@@ -87,7 +82,7 @@
             </p>
           </li>
           <li>
-            <img src="/images/benefits/production.svg" alt="Own production" width="32px" height="32px" />
+            <img src="./images/benefits/icon-3.svg" alt="Own production" width="32" height="32" />
             <h3>Own production</h3>
             <p class="benefits-text">
               We take pride in our own production process, ensuring that every step is carefully crafted to perfection.
@@ -106,24 +101,19 @@
         </p>
         <ul>
           <li class="ingredients-list-item-milk-chocolate">
-            <img src="./images/ingredients/milk-chocolate.png" alt="Milk chocolate" width="206px" height="160px" />
+            <img src="./images/ingredients/img-1.png" alt="Milk chocolate" width="206" height="160" />
             <h3>Milk chocolate</h3>
           </li>
           <li class="ingredients-list-item-milk">
-            <img src="./images/ingredients/milk.png" alt="Milk" width="206px" height="160px" />
+            <img src="./images/ingredients/img-2.png" alt="Milk" width="206" height="160" />
             <h3>Milk</h3>
           </li>
           <li class="ingredients-list-item-nuts">
-            <img src="./images/ingredients/nuts.png" alt="Nuts" width="206px" height="160px" />
+            <img src="./images/ingredients/img-3.png" alt="Nuts" width="206" height="160" />
             <h3>Nuts</h3>
           </li>
           <li class="ingredients-list-item-semi-sweet-chocolate">
-            <img
-              src="./images/ingredients/semi-sweet-chocolate.png"
-              alt="Semi-sweet chocolate"
-              width="206px"
-              height="160px"
-            />
+            <img src="./images/ingredients/img-4.png" alt="Semi-sweet chocolate" width="206" height="160" />
             <h3>Semi-sweet chocolate</h3>
           </li>
         </ul>
@@ -131,7 +121,7 @@
       <!-- How it's made? section -->
       <section id="how-made">
         <h2>How it's <span>made?</span></h2>
-        <img src="./images/how-it's-made/how-it's-made.png" alt="How it's made?" width="600px" height="400px" />
+        <img src="/images/how-it's-made/img-1.png" alt="How it's made?" width="600" height="400" />
         <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
         <ul>
           <li>Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</li>
@@ -147,9 +137,51 @@
         </ul>
       </section>
       <!-- Reviews section -->
-      <section id="reviews"></section>
+      <section id="reviews">
+        <h2><span>Chocolate </span>is loved</h2>
+        <ul>
+          <li>
+            <img src="./images/reviews/img-1.png" alt width="80" height="80" />
+            <h3>Victoria Dobrzhanska</h3>
+            <p>
+              I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.
+            </p>
+          </li>
+          <li>
+            <img src="./images/reviews/img-2.png" alt width="80" height="80" />
+            <h3>Nazar Babenko</h3>
+            <p
+              >This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is
+              smooth, and the chocolate is good.
+            </p>
+          </li>
+          <li>
+            <img src="./images/reviews/img-3.png" alt width="80" height="80" />
+            <h3>Olena Kampusch</h3>
+            <p>
+              Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The
+              wafer is soft but crunchy.
+            </p>
+          </li>
+        </ul>
+        <button type="button">Leave a review</button>
+      </section>
     </main>
     <!-- This is a page footer -->
-    <footer></footer>
+    <footer>
+      <p><span>Chocolate</span> a delicious cure for a bad day</p>
+      <address>
+        <p>Contact us</p>
+        <ul>
+          <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
+          <li><a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a></li>
+        </ul>
+      </address>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#how-made">How it's made?</a></li>
+        <li><a href="#reviews">Chocolate is loved</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
